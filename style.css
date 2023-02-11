@@ -1,0 +1,30 @@
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.light {
+    background-color: white;
+    color: #5CB5C5;
+    border-bottom: 2px solid #5CB5C5;
+}
+
+.dark {
+    background-color: #5CB5C5;
+    color: #fff;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+}
+
+.list li{
+    margin-left: 5px;
+}
+
+span {
+    font-weight: bold;
+}
